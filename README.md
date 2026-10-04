@@ -58,7 +58,7 @@ No print inspecionei o botão "Novo Projeto" e o card de KPI. O `MudButton` viro
 
 ## Estrutura do projeto
 
-
+```text
 afya-admin/
 ├── Components/
 │   ├── AtividadesRecentes.razor
@@ -91,7 +91,7 @@ afya-admin/
 ├── App.razor
 ├── Program.cs
 └── afya-admin.csproj
-
+```
 
 - **`Components/`**: peças visuais reutilizáveis da tela, cada uma recebendo seus dados por parâmetros, mais o `Ui.cs` com duas funções auxiliares de apresentação.
 - **`Data/`**: os modelos (records) e os dados fictícios do dashboard (`DashboardData.cs`).
